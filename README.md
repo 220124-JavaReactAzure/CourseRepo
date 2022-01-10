@@ -10,7 +10,7 @@ This is the main repository for our course notes. Please go here for all informa
 - [Hackerrank Problems - Java](https://www.hackerrank.com/domains/java)
 - [Leetcode](https://leetcode.com)
 
-# Revature Specific Links
+## Revature Specific Links
 - [Revature Connect](https://connect.revature.net/myfeed)
 - [RevPro](https://app.revature.com/dashboard)
 - [Time & Expenses](https://rev2.force.com/revature)
