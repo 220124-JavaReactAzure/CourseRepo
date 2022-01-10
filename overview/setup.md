@@ -26,8 +26,8 @@ The following technologies are required in order to complete this phase of the p
 
 There are two provided methods of attaining and configuring all of the necessary tools listed above:
 
-[1. Via a _package manager_ or command-line installer (**RECOMMENDED**)](#method-1-installation-guide-using-a-package-manager)
-[2. Manually downloading the necessary software](#method-2-manual-installation)
+1. [Via a _package manager_ or command-line installer (**RECOMMENDED**)](#method-1-installation-guide-using-a-package-manager)
+2. [Manually downloading the necessary software](#method-2-manual-installation)
 
 Neither method is more "correct" than the other. You should choose the method of attaining the tools that works best for you.
 
