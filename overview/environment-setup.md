@@ -1,10 +1,10 @@
 # Java Environment Setup Guide
 
-> *This document provides a list of the required technologies for anyone who will be participating in the Fullstack Java batch. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup.*
+> _This document provides a list of the required technologies for anyone who will be participating in the Fullstack Java batch. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup._
 
 **NOTE**: It is VERY important that you install these technologies before training begins as we will not have much time to devote to environment setup due to the volume of content we'll cover in week 1.
 
-> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
+> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide).
 
 <br>
 
@@ -12,47 +12,53 @@
 
 The following technologies are required in order to complete this phase of the program:
 
-- [**Git**](#step-1-install-git): We'll be using Git as a version control tool during the course of this program. Not only will you use Git to track changes to your projects, but you'll also use it to collaborate with your trainer and with your fellow associates.
+-   [**Git**](#step-1-install-git): We'll be using Git as a version control tool during the course of this program. Not only will you use Git to track changes to your projects, but you'll also use it to collaborate with your trainer and with your fellow associates.
 
 <br>
 
-- [**Java SE Development Kit 8**](#-step-2-install-java-development-kit): We will be utilizing Java 8 as our primary language for the duration of the program. This software development kit will provide the compiler and runtime environment needed to quickly and efficiently develop Java applications.
+-   [**Java SE Development Kit 8**](#-step-2-install-java-development-kit): We will be utilizing Java 8 as our primary language for the duration of the program. This software development kit will provide the compiler and runtime environment needed to quickly and efficiently develop Java applications.
 
 <br>
 
-- [**Spring Tool Suite 4**](#step-3-install-spring-tool-suite-4): We will be using Spring Tool Suite 4 as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
+<<<<<<< HEAD:overview/README.md
+
+-   # [**Spring Tool Suite 4**](#step-3-install-spring-tool-suite-4): We will be using Spring Tool Suite 4 as our _integrated development environment_ (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
+
+1. [Via a _package manager_ or command-line installer (**RECOMMENDED**)](#method-1-installation-guide-using-a-package-manager)
+2. [Manually downloading the necessary software](#method-2-manual-installation)
+    > > > > > > > b45adca37b7a9a319b128968f689ad39fe1c33bb:overview/setup.md
 
 <br>
 
-- [**Apache Maven**](#step-4-install-maven): Maven is a software project management and build automation tool. We will use it to manage our projects' builds as it provides dependency management and streamlines several aspects of the testing life cycle.
+-   [**Apache Maven**](#step-4-install-maven): Maven is a software project management and build automation tool. We will use it to manage our projects' builds as it provides dependency management and streamlines several aspects of the testing life cycle.
 
 <br>
 
-- [**PostgreSQL**](#step-5-install-postgres-13): PostgreSQL is an open source relational database. We will leverage this technology in order to persist and organize data.
+-   [**PostgreSQL**](#step-5-install-postgres-13): PostgreSQL is an open source relational database. We will leverage this technology in order to persist and organize data.
 
 <br>
 
-- [**DBeaver**](#step-6-install-dbeaver): DBeaver is a free, open source universal database tool that is compatible with several external data sources, PostgreSQL included. We'll use DBeaver in order to modify our databases and persist data using a simple user interface provided to us by the tool.
+-   [**DBeaver**](#step-6-install-dbeaver): DBeaver is a free, open source universal database tool that is compatible with several external data sources, PostgreSQL included. We'll use DBeaver in order to modify our databases and persist data using a simple user interface provided to us by the tool.
 
 <br>
 
-- [**Postman**](#step-7-install-postman): Postman is used for testing RESTful APIs. We'll use it to set up collections of tests for the RESTful APIs we design throughout the program. It can also be used to quickly test a single endpoint.
+-   [**Postman**](#step-7-install-postman): Postman is used for testing RESTful APIs. We'll use it to set up collections of tests for the RESTful APIs we design throughout the program. It can also be used to quickly test a single endpoint.
 
 <br>
 
-- [**Visual Studio Code**](#step-8-install-visual-studio-code): Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE. This tool is optional, but it can be helpful if you are new to programming and wish to familiarize yourself with the syntax of the Java programming language. 
+-   [**Visual Studio Code**](#step-8-install-visual-studio-code): Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE. This tool is optional, but it can be helpful if you are new to programming and wish to familiarize yourself with the syntax of the Java programming language.
 
 <br>
 
-- [**Apache Tomcat**](#step-9-install-apache-tomcat): During this program, we will explore web development. As a result, we'll need a runtime environment for our web applications. Apache Tomcat provides a web server environment in which we can run our Java code so that we can easily and quickly deploy our web applications.
+-   [**Apache Tomcat**](#step-9-install-apache-tomcat): During this program, we will explore web development. As a result, we'll need a runtime environment for our web applications. Apache Tomcat provides a web server environment in which we can run our Java code so that we can easily and quickly deploy our web applications.
 
 <br>
 
-- [**Docker**](#step-10-install-docker): Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+-   [**Docker**](#step-10-install-docker): Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
 
 <br>
 
-> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
+> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide).
 
 <br>
 
@@ -62,14 +68,14 @@ This method is compatible with all environments as it does not require any platf
 
 Do note, however, that setting system environment variables differs from machine to machine. This guide shows how to set environment variables on a Windows machine.
 
-The first thing you'll want to do is open your web browser of choice. This guide will use *Chrome*.
+The first thing you'll want to do is open your web browser of choice. This guide will use _Chrome_.
 
 **Note**: Many of the tools that you will install have different system installers that are platform dependent. It is **very** important that you download the correct installer. The following list details how you should choose the installer for a program:
 
-- If you have a 32-bit version of Windows, use the installer that is marked as the 32-bit version.
-- If you have a 64-bit version of Windows, use the installer that is marked as the 64-bit version. ***This is the most common and most likely what you will use***
-- If you have a Linux distribution (e.g. Debian, Ubuntu, Red Hat, Fedora), you should choose the installer that matches your distribution.
-- If you have a Mac, you should choose the installer that is marked as the Mac installer. **Please refer to the [Mac Install Guide](https://github.com/sophiagavrila/mac-install-guide)**
+-   If you have a 32-bit version of Windows, use the installer that is marked as the 32-bit version.
+-   If you have a 64-bit version of Windows, use the installer that is marked as the 64-bit version. **_This is the most common and most likely what you will use_**
+-   If you have a Linux distribution (e.g. Debian, Ubuntu, Red Hat, Fedora), you should choose the installer that matches your distribution.
+-   If you have a Mac, you should choose the installer that is marked as the Mac installer. **Please refer to the [Mac Install Guide](https://github.com/sophiagavrila/mac-install-guide)**
 
 These options will be clearly labeled on the websites you visit to download the technologies. If you're not sure how to figure out what version of the Windows operating system you're running, do the following:
 
@@ -89,11 +95,11 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 1. Navigate in your browser to [Git's Website](https://git-scm.com/download) and click the latest download for Windows. (For those using a different OS click the appropriate OS and look for the most recent stable release.)
 
-![](./images/Git-Download1.jpg) 
+![](./images/Git-Download1.jpg)
 
-2. Click yes to any security/firewall popup asking if you are sure you want to download the file. 
+2. Click yes to any security/firewall popup asking if you are sure you want to download the file.
 
-3. The install file will begin downloading; most browsers will show the file that has just downloaded, click that file when it completes. If you do so skip to step 6. If the download is not apparent on your browser or disappears upon finishing go to step 4. 
+3. The install file will begin downloading; most browsers will show the file that has just downloaded, click that file when it completes. If you do so skip to step 6. If the download is not apparent on your browser or disappears upon finishing go to step 4.
 
 ![](./images/Git-Download2.jpg)
 
@@ -105,9 +111,9 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/Git-Downloads-Folder.jpg)
 
-6. Click yes to any security pop-ups asking you if you want to allow the installer to make changes to your computer. 
+6. Click yes to any security pop-ups asking you if you want to allow the installer to make changes to your computer.
 
-7. The install wizard will open to guide you through the process of installing Git. Read the license agreement and click "Next." 
+7. The install wizard will open to guide you through the process of installing Git. Read the license agreement and click "Next."
 
 ![](./images/Git-License.jpg)
 
@@ -119,7 +125,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/Git-Components.jpg)
 
-10. Leave the rest of the set up as the default configuration clicking Next until you get to the experimental options (which you should leave unchecked) and then click Install. This will run the actual install process. 
+10. Leave the rest of the set up as the default configuration clicking Next until you get to the experimental options (which you should leave unchecked) and then click Install. This will run the actual install process.
 
 ![](./images/Git-editor.jpg)
 ![](./images/Git-PATH.jpg)
@@ -134,7 +140,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](.images/Git-Finished.jpg)
 
-12. When Git Bash opens type "git --version" and hit Enter. If it return the version of Git you installed it correctly. 
+12. When Git Bash opens type "git --version" and hit Enter. If it return the version of Git you installed it correctly.
 
 ![](./images/Git-Version.jpg)
 
@@ -142,23 +148,23 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ## Step 2: Install Java Development Kit
 
-1. Navigate in your web browser to [Oracle's JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html?) website. NOTE: If you are experiencing errors when trying to load the webpage try another browser. If you still are having trouble, try again later. 
+1. Navigate in your web browser to [Oracle's JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html?) website. NOTE: If you are experiencing errors when trying to load the webpage try another browser. If you still are having trouble, try again later.
 
 2. In the top right of the website click "View Accounts" and then "Create an Account." (If you already have an Oracle account you can just skip to step 5)
 
 ![](./images/JDK-CreateAccount.jpg)
 
-3. Fill in the form with your information (you may type "none" for Company Name) and then click the "Create Account" button. 
+3. Fill in the form with your information (you may type "none" for Company Name) and then click the "Create Account" button.
 
 ![](./images/JDK-New-Account.jpg)
 
-4. Check your e-mail account for a new message from Oracle. (This may take a few minutes.) When you receive the e-mail open it and click the "Verify Email Address" button inside. This should direct you to a success screen. 
+4. Check your e-mail account for a new message from Oracle. (This may take a few minutes.) When you receive the e-mail open it and click the "Verify Email Address" button inside. This should direct you to a success screen.
 
 ![](./images/JDK-Inbox.jpg)
 ![](./images/JDK-Email.jpg)
 ![](./images/JDK-Success.jpg)
 
-5. Return to [Oracle's JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html?) website. Scroll to find the appropriate JDK for your Operating System and Architecture. (Windows 10 will be Windows x64 as shown below) and click to download. 
+5. Return to [Oracle's JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html?) website. Scroll to find the appropriate JDK for your Operating System and Architecture. (Windows 10 will be Windows x64 as shown below) and click to download.
 
 ![](./images/JDK-Download.jpg)
 
@@ -166,15 +172,15 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-License.jpg)
 
-7. If you are not signed in a pop will appear asking you to do so. Enter your sign in information (your e-mail is your user name) and submit. The download should then begin. 
+7. If you are not signed in a pop will appear asking you to do so. Enter your sign in information (your e-mail is your user name) and submit. The download should then begin.
 
 ![](./images/JDK-Signin.jpg)
 
-8. Once the download is complete, click the file that downloads in your browser to open it and skip to step 11. If you do not see the file in your browser then proceed to step 9 to find it in your downloads folder. 
+8. Once the download is complete, click the file that downloads in your browser to open it and skip to step 11. If you do not see the file in your browser then proceed to step 9 to find it in your downloads folder.
 
 ![](./images/JDK-Downloaded.jpg)
 
-9. If you could not open the JDK installer from your browser open your file explorer. 
+9. If you could not open the JDK installer from your browser open your file explorer.
 
 ![](./images/Git-File-Explore-Taskbar.jpg)
 
@@ -182,7 +188,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-Downloads.jpg)
 
-11. The installer will inform you that the license has been updated from previous versions. Review the license if you have not already and click next. 
+11. The installer will inform you that the license has been updated from previous versions. Review the license if you have not already and click next.
 
 ![](./images/JDK-Wizard1.jpg)
 
@@ -200,7 +206,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 ![](./images/JDK-Wizard5.jpg)
 ![](./images/JDK-Wizard6.jpg)
 
-15. Use your system search tool (next to the windows button) to look for "Edit the system environment variables" in the control panel. Be sure that you open the SYSTEM environment not the ones just for your account. 
+15. Use your system search tool (next to the windows button) to look for "Edit the system environment variables" in the control panel. Be sure that you open the SYSTEM environment not the ones just for your account.
 
 ![](./images/JDK-SysEnv.jpg)
 
@@ -208,11 +214,11 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-SysProp.jpg)
 
-17. Under "System Variables" click the "New" button. 
+17. Under "System Variables" click the "New" button.
 
 ![](./images/JDK-EnvVar.jpg)
 
-18. Name the new variable "JAVA_HOME" and give it the value of the directory where your JDK was installed to. (See Step 12.) If you are unsure of your directory path you can go to C:\Program Files\Java in your file explorer then click on the JDK folder to open it. You can then copy the path from the navigation bar at the top of the file explorer. 
+18. Name the new variable "JAVA_HOME" and give it the value of the directory where your JDK was installed to. (See Step 12.) If you are unsure of your directory path you can go to C:\Program Files\Java in your file explorer then click on the JDK folder to open it. You can then copy the path from the navigation bar at the top of the file explorer.
 
 ![](./images/JDK-JavaHome.jpg)
 
@@ -220,15 +226,15 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-PathEdit.jpg)
 
-20. Click "New" to create a new line. Add the path to the JDK bin folder in this line, it will be the same as the path in JAVA_HOME with a "\bin" at the end. 
+20. Click "New" to create a new line. Add the path to the JDK bin folder in this line, it will be the same as the path in JAVA_HOME with a "\bin" at the end.
 
 ![](./images/JDK-PathNew.jpg)
 
-21. Click "OK" to close the Environment Variables window. 
+21. Click "OK" to close the Environment Variables window.
 
 ![](./images/JDK-End.jpg)
 
-22. Open Git Bash, type "java -version" and hit Enter. If the JDK is installed correctly you should see Java with the version number you downloaded. 
+22. Open Git Bash, type "java -version" and hit Enter. If the JDK is installed correctly you should see Java with the version number you downloaded.
 
 ![](./images/JDK-Version.jpg)
 
@@ -236,7 +242,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ## Step 3: Install Spring Tool Suite 4
 
-1. Navigate to the [Spring Tools](https://spring.io/tools) website and download Spring Tools 4 for Eclipse. 
+1. Navigate to the [Spring Tools](https://spring.io/tools) website and download Spring Tools 4 for Eclipse.
 
 ![](./images/STS-Web.jpg)
 
@@ -244,19 +250,19 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/STS-Jar.jpg)
 
-3. An unnamed progress bar will appear as STS is installed into your directory. 
+3. An unnamed progress bar will appear as STS is installed into your directory.
 
 ![](./images/STS-Unpack.jpg)
 
-4. Once the install is complete you will have an STS folder in the directory. Double click it to enter it. 
+4. Once the install is complete you will have an STS folder in the directory. Double click it to enter it.
 
 ![](./images/STS-Folder.jpg)
 
-5. Once inside the folder double click the SpringToolSuite4 application icon to start STS and ensure it runs correctly. If you encounter any errors check all the path variables you configured in the previous setup guides. 
+5. Once inside the folder double click the SpringToolSuite4 application icon to start STS and ensure it runs correctly. If you encounter any errors check all the path variables you configured in the previous setup guides.
 
 ![](./images/STS-Ready.jpg)
 
-6. If STS opens without errors you will be asked to create a workspace. You can just click "Cancel" at this time. 
+6. If STS opens without errors you will be asked to create a workspace. You can just click "Cancel" at this time.
 
 7. If you would like to place a shortcut to STS on your desktop (which is highly recommended) you can right-click the SpringToolSuite4 application, hover over "Send to" and click "Desktop (create shortcut)". You will now have a desktop icon from which you can open STS.
 
@@ -267,15 +273,15 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ## Step 4: Install Maven
 
-1. Navigate in your web browser to the [Maven Download Page](https://maven.apache.org/download.cgi) and scroll down to the "Files" section. Click the Binary zip archive link to download. Approve any firewall/security popups asking if you are sure you want to download the file. 
+1. Navigate in your web browser to the [Maven Download Page](https://maven.apache.org/download.cgi) and scroll down to the "Files" section. Click the Binary zip archive link to download. Approve any firewall/security popups asking if you are sure you want to download the file.
 
 ![](./images/MVN-Download.jpg)
 
-2. The download should appear in your browser. When it completes right-click and click "Show in folder." Skip to step 4. If you were unable to right-click and show in folder proceed to step 3. 
+2. The download should appear in your browser. When it completes right-click and click "Show in folder." Skip to step 4. If you were unable to right-click and show in folder proceed to step 3.
 
 ![](./images/MVN-OpenFile.jpg)
 
-3. If you could not open the file location from your browser, open your file explorer, click downloads, and search "maven" in the upper right search bar. You should see the file you just downloaded. 
+3. If you could not open the file location from your browser, open your file explorer, click downloads, and search "maven" in the upper right search bar. You should see the file you just downloaded.
 
 ![](./images/Git-File-Explore-Taskbar.jpg)
 ![](./images/MVN-Downloads.jpg)
@@ -288,15 +294,15 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/MVN-Unzip.jpg)
 
-6. Your file will be unzipped and your file explore will open a window to C:\Maven containing the folder with your maven version. Double click to open that folder. 
+6. Your file will be unzipped and your file explore will open a window to C:\Maven containing the folder with your maven version. Double click to open that folder.
 
 ![](./images/MVN-File.jpg)
 
-7. Now inside the versions specific folder, click the navigation bar and the top and copy the file path. You will need this for your environment variables. 
+7. Now inside the versions specific folder, click the navigation bar and the top and copy the file path. You will need this for your environment variables.
 
 ![](./images/MVN-FilePath.jpg)
 
-8. Use your system search tool (next to the windows button) to look for "Edit the system environment variables" in the control panel. Be sure that you open the SYSTEM environment not the ones just for your account. 
+8. Use your system search tool (next to the windows button) to look for "Edit the system environment variables" in the control panel. Be sure that you open the SYSTEM environment not the ones just for your account.
 
 ![](./images/JDK-SysEnv.jpg)
 
@@ -304,7 +310,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-SysProp.jpg)
 
-10. Under "System Variables" click the "New" button. 
+10. Under "System Variables" click the "New" button.
 
 ![](./images/JDK-EnvVar.jpg)
 
@@ -324,23 +330,23 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/MVN-Path.jpg)
 
-15. Click "OK" to close the Environment Variables window. 
+15. Click "OK" to close the Environment Variables window.
 
 ![](./images/JDK-End.jpg)
 
-16. Open CMD prompt (or a GitBash terminal) and type `mvn --version` then hit Enter. If that returns the maven version you have it set up correctly. 
+16. Open CMD prompt (or a GitBash terminal) and type `mvn --version` then hit Enter. If that returns the maven version you have it set up correctly.
 
 ![](./images/MVN-Version.jpg)
 
 <br>
 
-> :exclamation: *If you couldn't figure out these steps please refer to [this video tutorial on how to install Maven on Windows](https://www.youtube.com/watch?v=--Iv5vBIHjI)*.
+> :exclamation: _If you couldn't figure out these steps please refer to [this video tutorial on how to install Maven on Windows](https://www.youtube.com/watch?v=--Iv5vBIHjI)_.
 
 <br>
 
 ## Step 5: Install PostgreSQL 13
 
-In order to install PostgreSQL, please visit [PostgreSQL's official download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads). *This site will direct you to Postgres' certified installer.*
+In order to install PostgreSQL, please visit [PostgreSQL's official download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads). _This site will direct you to Postgres' certified installer._
 
 Please look at the row for **version 13.x** as we will downloading this version. Select the download link which corresponds with your system and click it.
 
@@ -512,7 +518,7 @@ Then click on the "Environment Variables" button at the bottom of the box that a
 
 ![Edit Environment Variables](./images/JDK-SysProp.jpg)
 
-A new box should pop up. At this point, you should click the "New" button at the  bottom of the box.
+A new box should pop up. At this point, you should click the "New" button at the bottom of the box.
 
 ![New System Variable](./images/JDK-EnvVar.jpg)
 
@@ -535,17 +541,16 @@ At this point, the value of the CATALINA_HOME environment variable should be dis
 <br>
 
 ## Step 10: Install Docker
+
 Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
 
 Go [here to download Docker Desktop](https://www.docker.com/products/docker-desktop) 👈
 
 <br>
 
-Additional Resources
-====================
+# Additional Resources
 
-*  **Git Cheat Sheet** (This is a GitHub-provided cheat sheet for some simple Git commands.): https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
-*  **Java Docs** (The official API specification for Java 8): https://docs.oracle.com/javase/8/docs/api/
-*  **Maven Repository** (This provides a repository of dependencies which we can add to our Project Object Models): https://mvnrepository.com/
-*  **PostgreSQL Docs** (This is PostgreSQL's official documentation.): https://www.postgresql.org/docs/
-
+-   **Git Cheat Sheet** (This is a GitHub-provided cheat sheet for some simple Git commands.): https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+-   **Java Docs** (The official API specification for Java 8): https://docs.oracle.com/javase/8/docs/api/
+-   **Maven Repository** (This provides a repository of dependencies which we can add to our Project Object Models): https://mvnrepository.com/
+-   **PostgreSQL Docs** (This is PostgreSQL's official documentation.): https://www.postgresql.org/docs/
