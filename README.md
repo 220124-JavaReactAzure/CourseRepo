@@ -4,15 +4,16 @@ This is the main repository for our course notes. Please go here for all informa
 
 ## Important Course Links
 
-- [Environment Setup Guide](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/environment-setup.md)
-- [Zoom Link]()
-- [How to Do Well in QC](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/How_To_Do_Well_In_QC.pdf)
-- [Hackerrank Problems - Java](https://www.hackerrank.com/domains/java)
-- [Leetcode](https://leetcode.com)
+-   [Environment Setup Guide](https://github.com/sophiagavrila/environment-setup)
+-   [Zoom Link]()
+-   [How to Do Well in QC](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/How_To_Do_Well_In_QC.pdf)
+-   [Hackerrank Problems - Java](https://www.hackerrank.com/domains/java)
+-   [Leetcode](https://leetcode.com)
 
 ## Revature Specific Links
-- [Revature Connect](https://connect.revature.net/myfeed)
-- [RevPro](https://app.revature.com/dashboard)
-- [Time & Expenses](https://rev2.force.com/revature)
-- [Payroll & Benefits](https://www.workforcenow.adp.com/)
-- [HR Training](https://revature.percipio.com/)
+
+-   [Revature Connect](https://connect.revature.net/myfeed)
+-   [RevPro](https://app.revature.com/dashboard)
+-   [Time & Expenses](https://rev2.force.com/revature)
+-   [Payroll & Benefits](https://www.workforcenow.adp.com/)
+-   [HR Training](https://revature.percipio.com/)
