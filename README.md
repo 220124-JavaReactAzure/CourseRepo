@@ -5,10 +5,16 @@ This is the main repository for our course notes. Please go here for all informa
 ## Important Course Links
 
 -   [Environment Setup Guide](https://github.com/sophiagavrila/environment-setup)
--   [Zoom Link]()
--   [How to Do Well in QC](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/How_To_Do_Well_In_QC.pdf)
+-   [Zoom Link](https://revature.zoom.us/j/99507342769?pwd=MGFvOTgxT0tWWHNKWkRzalppLzkyZz09)
 -   [Hackerrank Problems - Java](https://www.hackerrank.com/domains/java)
 -   [Leetcode](https://leetcode.com)
+
+## Helpful Study Tips and Resources
+
+-   [How to Do Well in QC](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/How_To_Do_Well_In_QC.pdf)
+-   [Question Bank](https://docs.google.com/spreadsheets/d/1yf7Jm9LWSaQjVNVgFqcEt5J58XH1LG3b65bLKfKYtFk/edit?usp=sharing)
+-   [Fun Read: Knights of Functional Programming fight the Imperative Dragon.](https://medium.com/@samuel.fare/the-knights-of-functional-programming-fight-the-imperative-dragon-8c3bb1eac63c)
+-   [Quizlet](https://quizlet.com/class/21235468/)
 
 ## Revature Specific Links
 
@@ -17,3 +23,10 @@ This is the main repository for our course notes. Please go here for all informa
 -   [Time & Expenses](https://rev2.force.com/revature)
 -   [Payroll & Benefits](https://www.workforcenow.adp.com/)
 -   [HR Training](https://revature.percipio.com/)
+
+## Emails
+
+-   ITSupport: itsupport@revature.com
+-   Support: support@revature.com
+-   HR: hr@revature.com
+-   Trainer: charles.jester@revature.com
