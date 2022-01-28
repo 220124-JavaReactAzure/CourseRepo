@@ -11,7 +11,7 @@ This is the main repository for our course notes. Please go here for all informa
 
 ## Helpful Study Tips and Resources
 
--   [How to Do Well in QC](https://github.com/220124-JavaReactAzure/CourseRepo/blob/main/overview/How_To_Do_Well_In_QC.pdf)
+-   [How to Do Well in QC](./helpful-files/How_To_Do_Well_In_QC.pdf)
 -   [Question Bank](https://docs.google.com/spreadsheets/d/1yf7Jm9LWSaQjVNVgFqcEt5J58XH1LG3b65bLKfKYtFk/edit?usp=sharing)
 -   [Fun Read: Knights of Functional Programming fight the Imperative Dragon.](https://medium.com/@samuel.fare/the-knights-of-functional-programming-fight-the-imperative-dragon-8c3bb1eac63c)
 -   [Quizlet](https://quizlet.com/class/21235468/)
