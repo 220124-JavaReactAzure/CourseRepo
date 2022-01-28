@@ -17,6 +17,7 @@ This is the main repository for our course notes. Please go here for all informa
 -   [Quizlet](https://quizlet.com/class/21235468/)
 -   [Optional: OCA Enthuware Practice](https://enthuware.com/java-certification-mock-exams/oracle-certified-associate/ocajp-1z0-808)
 -   [DarkestDark Eclipse/STS](https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle)
+-   [Good Java Basics Overview](https://www.w3schools.com/java/default.asp)
 
 ## Revature Specific Links
 
